@@ -4,7 +4,7 @@ This repository is as a documentation for Operating System 2022 Spring class on 
 
 
 
-## Introduction
+## Introduction - FAST FILE DUPLICATION
 This assignment task is to optimize the copying file with 1GB file on tmpfs. The baseline code is using low level operation, such as open(), creat(), read(), write(). This assignment is performed on the virtual memory file system tmpfs, it will eliminate disk overhead when
 copying data from storage to kernel pages and vice versa. The operation is much faster as no disk access is affected.
 Hence the key point in this homework is to reduce system calls using between file operation in order to minimize the
