@@ -41,6 +41,8 @@ overhead results. Also the other keypoint is reduce the switch between user and 
   - standardlibc: fopen() + fread() + fwrite()
   - copy_file_range(): Linux Zero-copy method.
   - sendfile(): Linux Zero-copy method.
+
+## Best performances are copy_file_range() and sendfile()
   
 ## References
 1. copy_file_range(2)—Linux manual page. https://man7.org/linux/man-pages/man2/copy_file _range.2.html. Accessed: 2022-06-15.
